@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: auto;
+   display: grid;
+   grid-template-columns: 1fr 2fr 1fr
+    ;
+   grid-gap: 1em;
+   grid-column: 2em;
+
+   
+}
+
+.wrapper :nth-child(odd){
+    background: springgreen;
+}
+.wrapper :nth-child(even){
+    background: steelblue;
+}
+.bor {
+    position: sticky;
+    width: 100%;
+    height: 500px;
+}
+.box1{
+    width: 100%;
+    border: solid 20px blueviolet;
+    left: 500px;
+    
+}
+.box2{
+    font-size: 5em;
+    margin-left: 300px;
+    margin-top: 20px;
+    background-color: black;
+}
+.box3{
+    font-size: 2em;
+    display: grid;
+    padding:20px;
+}
+
+
+.box5{
+    font-size: 2em;
+}
+.box6 {
+    font-size: 2em;
+}
+.box7 {
+    font-size: 2em;
+}
+.box8 {
+    font-size: 2em;
+}
+.box9 {
+    font-size: 2em;
+}
+.box10 {
+    font-size: 2em;
+}
+.box11 {
+    font-size: 2em;
+}
+.box12 {
+    font-size: 2em;
+}
+.box13 {
+    font-size: 2em;
+}
+.box14 {
+    font-size: 2em;
+}
+.box15 {
+    font-size: 2em;
+}
+.box16 {
+    font-size: 2em;
+}
+.box17 {
+    font-size: 2em;
+}
+.box18 {
+    font-size: 2em;
+}
+.box19 {
+    font-size: 2em;
+}
+.box20 {
+    font-size: 2em;
+}
+.box21 {
+    font-size: 2em;
+}
+.box22 {
+    font-size: 2em;
+}
+
+
